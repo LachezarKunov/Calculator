@@ -1,1 +1,88 @@
+body
+{
+    background-image: url("images/background-img.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.calculator-container
+{
+    height: 440px;
+    width: 290px;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    margin-top: 50px;
+
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: black;
+}
+
+.display
+{
+    background-color: darkgray;
+    height: 60px;
+    padding: 0px 10px 0px 10px;
+    font-size: 28px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    color: white;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttons-container
+{
+    display: grid;
+    margin: 20px 10px 10px 10px;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px 10px;
+}
+
+.buttons-container button 
+{
+    justify-self: center;
+    align-self: center;
+}
+
+button
+{
+    border: transparent;
+    cursor: pointer;
+
+    height: 60px;
+    width: 60px;
+    border-radius: 37.5px;
+
+    font-size: 16px;
+}
+
+.btn-0
+{
+    width: 120px;
+    grid-column: span 2;
+}
+
+.grey-buttons
+{
+    background-color: rgb(179, 169, 169);
+    color:black;
+}
+
+.dark-grey-buttons
+{
+    background-color: rgb(118, 107, 107);
+    color:white;
+}
+
+.orange-buttons
+{
+    background-color: rgb(245, 166, 20);
+    color:white;
+}
 
